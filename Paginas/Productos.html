@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto</title>
+	
+	<link rel="stylesheet" href="../css/Estilos.css">
+	
+</head>
+
+<body>
+	<header class="cabecera">
+	
+		<a href="Index.html">
+			<div class="logo">
+		
+				<img src="../Imagenes/Logo.png" alt="">
+		
+			</div>
+		</a>
+		<nav class="navegador">
+		
+			<ul>
+				<li><a href="Index.html">Inicio</a></li>
+				<li><a href="Productos.html">Productos</a></li>
+				<li><a href="Contacto.html">Contacto</a></li>
+				<li><a href="Unete.html">Unete</a></li>
+				<li><a href="Acerca de.html">Acerca de</a></li>
+			</ul>
+			
+		</nav>
+		<button id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">---
+        </button>
+	</header>
+	
+	<main class="main">
+		<div class="social">   
+       		<a href="https://www.facebook.com/rocio.palaciosgamboa" target="_blank" class="icono icon-facebook"><img class="imagen_social" src="../Imagenes/Face.png" alt=""></a>     
+       		<a href="https://www.instagram.com/rocio_4life" target="_blank" class="icono icon-instagram"><img class="imagen_social" src="../Imagenes/insta.png" alt=""></a>
+       		<a href="https://api.whatsapp.com/send?phone=51944806972 " target="_blank" class="icono icon-whatsapp"><img class="imagen_social" src="../Imagenes/zxc.png" alt=""></a>	
+		</div>
+		
+		<div class="Cont-Prod">
+			<h1>Selecciona tu producto</h1>
+			<div class="contenido-productos">
+				<section class="cont-btn-productos">
+					<div class="categoria btn-click" id="Btn-Todos">Todos Los Productos</div>
+					<div class="categoria" id="Btn-Principales">Productos Principales</div>
+					<div class="categoria" id="Btn-Nutricional">Apoyo Nutricional</div>
+					<div class="categoria" id="Btn-Cuidado">Cuidado Personal</div>
+					<div class="categoria" id="Btn-Bienestar">Bienestar General</div>
+					<div class="categoria" id="Btn-Paquetes">Paquetes De Productos</div>
+					<div class="categoria" id="Btn-Otros">Otros Productos</div>
+					
+				</section>
+				
+				<section class="Productos mostrarProductos" id="Todos">
+					
+					<div class="producto">
+						<img src="../Imagenes/Premier Pack Plus.jpg" alt="" >
+						<a href="#">Premier Pack Plus</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Plus Premier.jpg" alt="" >
+						<a href="#">RioVida Plus Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Factor Más Premier.jpg" alt="" >
+						<a href="#">Factor Más Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Factor Plus Energy Premier.jpg" alt="" >
+						<a href="#">Plus Energy Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Pack Mejorado Premier.jpg" alt="" >
+						<a href="#">Pack Mejorado Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Constructor Inicial.jpg" alt="" >
+						<a href="#">Constructor Inicial</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Constructor Activado.jpg" alt="" >
+						<a href="#">Constructor Activado</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Sistema Acelerador 30 Días.jpg" alt="" >
+						<a href="#">Sistema Acelerador</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Transfer Factor Plus.jpg" alt="" >
+						<a href="#">Transfer Factor Plus</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Fibre System.jpg" alt="" >
+						<a href="#">Fibre System</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida.jpg" alt="" >
+						<a href="#">RioVida</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Renuvo.jpg" alt="" >
+						<a href="#">Transfer Factor Renuvo</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/BCV.jpg" alt="" >
+						<a href="#">BCV</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Energy Go Stix.jpg" alt="" >
+						<a href="#">Energy Go Stix</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premier Pack Compuesto.jpg" alt="" >
+						<a href="#">Premier Pack Compuesto</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Belle Vie.jpg" alt="" >
+						<a href="#">Belle Vie</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Glucoach.jpg" alt="" >
+						<a href="#">Glucoach</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RiteStart.jpg" alt="" >
+						<a href="#">RiteStart</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/NutraStart Chocolate.jpg" alt="" >
+						<a href="#">NutraStart Chocolate</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/PRO-TF.jpg" alt="" >
+						<a href="#">PRO-TF Proteína</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Tri-Factor.jpg" alt="" >
+						<a href="#">Transfer Tri-Factor</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Vistari.jpg" alt="" >
+						<a href="#">Vistari</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/BioEFA.jpg" alt="" >
+						<a href="#">BioEFA</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Stix.jpg" alt="" >
+						<a href="#">RioVida Stix</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Reflexion.jpg" alt="" >
+						<a href="#">Factor Reflexion</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Burst.jpg" alt="" >
+						<a href="#">RioVida Burst</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Tabletas Chewable.jpg" alt="" >
+						<a href="#">Tabletas Chewable</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/BCV.jpg" alt="" >
+						<a href="#">PC Lenovo</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Toothpaste.jpg" alt="" >
+						<a href="#">ToothPaste</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RenewAll.jpg" alt="" >
+						<a href="#">RenewAll</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premier Plus Reforzado.jpg" alt="" >
+						<a href="#">Premier Plus Reforzado</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Intesive Body Lotion.jpg" alt="" >
+						<a href="#">Intesive Body Lotion</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Oral Spray.jpg" alt="" >
+						<a href="#">Oral Spray</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Shampoo.jpg" alt="" >
+						<a href="#">Shampoo</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Protective Day Moisturizer.jpg" alt="" >
+						<a href="#">Crema Humectante Dia</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Life C Energizing Serum.jpg" alt="" >
+						<a href="#">Life C Serum</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premium.jpg" alt="" >
+						<a href="#">Premium 4Life</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Conditioner.jpg" alt="" >
+						<a href="#">Acondicionador</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Gentle Facial Cleanser.jpg" alt="" >
+						<a href="#">Gentle Facial Cleanser</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Restoring Eye Cream.jpg" alt="" >
+						<a href="#">Restoring Eye Cream</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Enumy Body Wash.jpg" alt="" >
+						<a href="#">Gel De Baño</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Refreshing Toner.jpg" alt="" >
+						<a href="#">Refreshing Toner</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Paquete Dirigido.jpg" alt="" >
+						<a href="#">Paquete Dirigido 4life</a>
+					</div>
+					
+				</section>
+				
+				<section class="Productos" id="Principales">
+				
+					<div class="producto">
+						<img src="../Imagenes/Transfer Factor Plus.jpg" alt="" >
+						<a href="#">Transfer Factor Plus</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida.jpg" alt="" >
+						<a href="#">RioVida</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RiteStart.jpg" alt="" >
+						<a href="#">RiteStart</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Tri-Factor.jpg" alt="" >
+						<a href="#">Transfer Tri-Factor</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Stix.jpg" alt="" >
+						<a href="#">RioVida Stix</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Burst.jpg" alt="" >
+						<a href="#">RioVida Burst</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Tabletas Chewable.jpg" alt="" >
+						<a href="#">Tabletas Chewable</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RenewAll.jpg" alt="" >
+						<a href="#">RenewAll</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Oral Spray.jpg" alt="" >
+						<a href="#">Oral Spray</a>
+					</div>
+				
+				</section>
+				
+				<section class="Productos" id="Nutricional">
+				
+					<div class="producto">
+						<img src="../Imagenes/Energy Go Stix.jpg" alt="" >
+						<a href="#">Energy Go Stix</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/NutraStart Chocolate.jpg" alt="" >
+						<a href="#">NutraStart Chocolate</a>
+					</div>
+				
+				</section>
+				
+				<section class="Productos" id="Cuidado">
+				
+					<div class="producto">
+						<img src="../Imagenes/Toothpaste.jpg" alt="" >
+						<a href="#">Tooth Paste</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Intesive Body Lotion.jpg" alt="" >
+						<a href="#">Intensive Body Lotion</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Shampoo.jpg" alt="" >
+						<a href="#">Shampoo</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Protective Day Moisturizer.jpg" alt="" >
+						<a href="#">Crema Humectante Dia</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Life C Energizing Serum.jpg" alt="" >
+						<a href="#">Life C Serum</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Conditioner.jpg" alt="" >
+						<a href="#">Acondicionador</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Gentle Facial Cleanser.jpg" alt="" >
+						<a href="#">Gentle Facial Cleanser</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Restoring Eye Cream.jpg" alt="" >
+						<a href="#">Restoring Eye Cream</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Enumy Body Wash.jpg" alt="" >
+						<a href="#">Gel De Baño</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Refreshing Toner.jpg" alt="" >
+						<a href="#">Refreshing Toner</a>
+					</div>
+				
+				</section>
+				
+				<section class="Productos" id="Bienestar">
+				
+					<div class="producto">
+						<img src="../Imagenes/Fibre System.jpg" alt="" >
+						<a href="#">Fibre System</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/BioEFA.jpg" alt="" >
+						<a href="#">BioEFA</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/LivRite.jpg" alt="" >
+						<a href="#">LivRite</a>
+					</div>
+				
+				</section>
+				
+				<section class="Productos" id="Paquetes">
+				
+					<div class="producto">
+						<img src="../Imagenes/Premier Pack Plus.jpg" alt="" >
+						<a href="#">Premier Pack Plus</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/RioVida Plus Premier.jpg" alt="" >
+						<a href="#">RioVida Plus Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Factor Más Premier.jpg" alt="" >
+						<a href="#">Factor Más Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Factor Plus Energy Premier.jpg" alt="" >
+						<a href="#">Plus Energy Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Pack Mejorado Premier.jpg" alt="" >
+						<a href="#">Pack Mejorado Premier</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Constructor Inicial.jpg" alt="" >
+						<a href="#">Constructor Inicial</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Constructor Activado.jpg" alt="" >
+						<a href="#">Constructor Activado</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Sistema Acelerador 30 Días.jpg" alt="" >
+						<a href="#">Sistema Acelerador</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premier Pack Compuesto.jpg" alt="" >
+						<a href="#">Premier Pack Compuesto</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premier Plus Reforzado.jpg" alt="" >
+						<a href="#">Premier Plus Reforzado</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Premium.jpg" alt="" >
+						<a href="#">Premium 4Life</a>
+					</div>
+					
+					<div class="producto">
+						<img src="../Imagenes/Paquete Dirigido.jpg" alt="" >
+						<a href="#">Paquete Dirigido 4Life</a>
+					</div>
+				
+				</section>
+				
+				<section class="Productos" id="Otros">
+				
+					
+				
+				</section>
+				
+			</div>
+		</div>
+		
+	</main>
+	
+	<footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Informacion De 4Life</h4>
+                <p>4Life ofrece suplementos para el respaldo de la salud del sistema inmunitario, la transformación del cuerpo y el bienestar general.</p>
+            </div>
+            <div class="content-foo">
+                <h4>Redes Sociales</h4>
+				
+				<a href="" target="_blank"><div class="redes"><img src="../Imagenes/fb.png" alt=""><span>Facebook</span></div></a>
+				
+                <a href="" target="_blank"><div class="redes"><img src="../Imagenes/ig.png" alt=""><span>Instagram</span></div></a>
+				
+                <a href="" target="_blank"><div class="redes"><img src="../Imagenes/wsp.png" alt=""><span>Whatsapp</span></div></a>
+				
+            </div>
+             <div class="content-foo">
+                <h4>Informacion Contacto</h4>
+                <div class="redes"><img src="../Imagenes/Ubicacion.png" alt=""><span>Urb.Santa&nbspMonica&nbsp&nbspF3&nbspHunter</span></div>
+				
+                <div class="redes"><img src="../Imagenes/Telefono.png" alt=""><span>944806972</span></div>
+				
+                <div class="redes"><img src="../Imagenes/Correo.png" alt=""><span>marloncabreraochoa321@hotmail.com</span></div>
+            </div>
+        </div>
+    </footer>
+	
+	<script src="../Js/js.js"></script>
+	
+</body>
+</html>
